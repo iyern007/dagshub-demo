@@ -9,7 +9,7 @@ import seaborn as sns
 
 
 import dagshub
-dagshub.init(repo_owner='campusx-official', repo_name='dagshub-demo', mlflow=True)
+dagshub.init(repo_owner='nikhil', repo_name='dagshub-demo', mlflow=True)
 
 mlflow.set_tracking_uri("https://dagshub.com/iyern007/dagshub-demo.mlflow")
 
